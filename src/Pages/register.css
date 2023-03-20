@@ -1,0 +1,45 @@
+
+.psw{
+    gap:1rem;
+    
+    display: flex;
+}
+h3{
+    text-align: center;
+}
+.Register-page{
+    background-color: white;
+    box-shadow: 5px 5px 15px rgb(246, 242, 242),
+                -5px -5px -15px rgb(246, 242, 242);
+    height: fit-content;
+    width: 500px;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    
+}
+
+.Forget-page{
+    background-color: white;
+   
+    height: fit-content;
+    width: 30rem;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+.Forget{
+    background-color:rgba(15, 110, 244, 0.944); 
+    width: 100vw;
+    min-height: 100vh;
+    padding: 10rem;
+}
+.Name{
+    border-radius: 1rem;
+    height: 0.2rem;
+    text-align: start;
+    padding: 1rem;
+    border: 1px solid rgb(193, 190, 190);
+    margin-top: 0;
+    margin-left: 1.5rem;
+}

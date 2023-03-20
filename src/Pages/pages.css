@@ -1,0 +1,72 @@
+.loginpage{
+    background-color: white;
+    height: fit-content;
+    width: 20rem;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+.welcome{
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.mail{
+    border-radius: 1rem;
+    height: 0.2rem;
+    text-align: start;
+    padding: 1rem;
+    border: 1px solid rgb(193, 190, 190);
+    margin-top: 0;
+}
+.checkbox{
+    display: flex;
+    gap: 0.5rem;
+}
+.btn5{
+    border-radius: 1rem;
+    height: 2.2rem;
+    border: 1px solid rgb(193, 190, 190);
+    margin-top: 1rem;
+}
+.letter{
+    font-weight: bolder;
+    margin: 5px;
+}
+#lightblue{
+background-color: rgba(14, 92, 200, 0.944);
+color: white;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#blue{
+    background-color: rgb(12, 12, 78);
+    color: white;
+
+}
+.footer{
+    color: rgb(6, 6, 127);
+    text-align: center;
+}
+.registermain{
+    background-color:rgba(15, 110, 244, 0.944); 
+    width: 100vw;
+    min-height: 100vh;
+    padding: 3rem;
+
+}
+.pageno{
+    font-size: 8rem;
+}
+.Pageserror{
+    margin: 2rem 0 0rem 30rem;
+    font-size: large;
+}
+.blankpage{
+    font-size: 4rem;
+    font-weight:lighter;
+}
