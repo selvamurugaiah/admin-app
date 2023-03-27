@@ -1,0 +1,158 @@
+.icons,.icons-sm,.icons-lg{
+    border-radius: 50%;
+    
+}
+.green,.green-sm,.green-lg{
+    background-color: green;
+    border-radius: 50%;
+}
+.blue,.blue-sm,.blue-lg{
+    background-color: rgb(12, 120, 147);
+    border-radius: 50%;
+}
+.yellow,.yellow-sm,.yellow-lg{
+    background-color: rgb(145, 166, 21);
+    border-radius: 50%;
+}
+.red-clr,.red-clr-sm,.red-clr-lg{
+    background-color: rgb(249, 44, 44);
+    border-radius: 50%;
+}
+.circle-btn{
+    width:500px;
+    height:500px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.icons-sm,.blue-sm,.green-sm,.red-clr-sm,.yellow-sm{
+    font-size: 15px;
+}
+.icons-lg,.blue-lg,.green-lg,.red-clr-lg,.yellow-lg{
+    font-size: 50px;
+}
+.heading{
+    width:480px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(175, 206, 233);
+    color: black;
+}
+.google-btn{
+    width:500px;
+    background-color: crimson;
+}
+.fb-btn{
+    width:500px;
+    background-color: rgb(8, 8, 99);
+}
+.brand-btn{
+    width:500px;
+    height:350px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 20px;
+ 
+}
+.split-btn{
+    width:500px;
+    height:650px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    bottom:890px;
+    left: 600px;
+}
+.split-blue{
+    background-color: blue;
+    width:250px;
+    height:35px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.split-green{
+    background-color: rgb(17, 161, 118);
+    width:250px;
+    height:35px;
+    margin-left: 20px; 
+    border-radius: 10px;
+}
+.split-sky{
+    background-color: rgb(17, 135, 161);
+    width:250px;
+    height:35px;
+    margin-left: 20px; 
+    border-radius: 10px;
+}
+.split-yellow{
+    background-color: rgb(195, 204, 21);
+    width:250px;
+    height:35px;
+    margin-left: 20px;
+    border-radius: 10px; 
+}
+.split-red{
+    background-color: rgb(197, 45, 25);
+    width:250px;
+    height:35px;
+    margin-left: 20px; 
+    border-radius: 10px;
+}
+.split-grey{
+    background-color: rgb(93, 96, 95);
+    width:250px;
+    height:35px;
+    margin-left: 20px; 
+    border-radius: 10px;
+}
+.split-white{
+    background-color: rgb(245, 246, 246);
+    width:250px;
+    height:35px;
+    margin-left: 20px; 
+    color:black;
+    border-radius: 10px;
+}
+.small{
+    background-color: blue;
+    width: 200px;
+    height:25px;
+    margin-left: 20px;
+    border-radius: 10px;
+   text-align: center;
+
+}
+.large{
+    background-color: blue;
+    width: 300px;
+    height:45px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.btn-style{
+   
+   font-size:20px;
+   position: relative;
+   right:20px
+    
+}
+.Cards{
+    display: flex;
+    gap:20px;
+}
+.card-des{
+    height:200px;
+    width:500px;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.h-card{
+    background-color: rgb(205, 224, 240);
+}
+.box{
+    display: flex;
+    margin-top: 100px;
+}

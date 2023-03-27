@@ -1,23 +1,39 @@
-.container{
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  grid-template-areas:
+    "s h h h"
+    "s m m m"
+    "s m m m";
+  background-color: rgba(55, 55, 203, 0.696);
+}
+.nav1 {
+  grid-area: h;
+  height: fit-content;
+  background-color: white;
+}
+.sidebar {
+  grid-area: s;
+  width: 18vw;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 0.5rem;
+  background-color:blue;
+  color: white;
+  text-align: left;
+}
+.main {
+  grid-area: m;
+  min-width: 83vw;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.column{
-  position: fixed;
-  height:100%;
-  padding:0;
-  margin: 0;
-  background-color: blue;
-  width:250px;
-  
-  color:white;
-}
-h4{
-  text-align: center;
-}
-p{
-  opacity: 0.5;
-}
 button{
   padding:10px;
   margin:5px;
@@ -54,6 +70,7 @@ option{
 }
 .style{
  color: rgb(202, 198, 198);
+ width: fit-content;
 }
 .none{
   color: rgb(202, 198, 198);
@@ -61,15 +78,14 @@ option{
 }
 footer{
   padding:17px;
-  width:85%;
+  width:100%;
   font-size: medium;
-  background-color: rgb(251, 247, 247);
+  background-color: rgb(177, 169, 169);
   font-weight: bolder;
   color:rgb(75, 66, 66);
-  margin-left: 250px;
-  position: absolute;
-  bottom:0;
+  margin-left: 18vw;
   text-align: center;
+  justify-content: center;
 }
 .search{
  margin-left: 50px;
@@ -79,17 +95,20 @@ footer{
   height: 25px;
   border-radius: 10px;
   border: 1px solid rgb(19, 158, 180);
+  
 }
 body{
   background-color: rgb(227, 224, 224);
 }
 .top-bar{
+  grid-area: h;
+  height: fit-content;
   background-color: white;
  width:100vw;
  height:50px;
- margin-left: 250px;
+ margin-left: 18vw;
  position: absolute;
- top:0px;
+
  border-bottom: 1px solid grey;
 }
 .notification{
@@ -115,4 +134,33 @@ body{
 .value{
   font-size: large;
   color:rgb(16, 10, 10);
+}
+.data{
+  width: fit-content;
+  height: fit-content;
+}
+.side-heading{
+  text-align: center;
+  color: white;
+}
+.para{
+  width:1000px
+}
+.new-data{
+  background-color:blue;
+  text-align: center;
+text-align: center;
+  color:white;
+  gap:5px;
+  border-radius: 5px;
+  
+}
+.btn-clr:hover{
+  cursor: pointer;
+  background-color: grey;
+}
+.btn-clr{
+
+  display: block;
+  text-align: center;
 }
